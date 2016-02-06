@@ -2,18 +2,34 @@
 <html>
 <title>Connect 4</title>
 <style>
+p
+{
+  text-align: center;
+}
+
+#parent
+{
+  height: 450px;
+  width: 448px;
+}
+#stage
+{
+  height: 400px;
+  width: 448px;
+
+}
 canvas
 {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-
 	cursor: pointer;
 }
 </style>
-
+<div id="parent">
 <div id="stage"></div>
 <p id="output"></p>
+</div>
 
 <!-- <link rel="stylesheet" href=""> -->
 <script>
