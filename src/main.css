@@ -1,0 +1,29 @@
+p
+{
+  text-align: center;
+}
+h2
+{
+  text-align: center;
+}
+#parent
+{
+
+  height: 500px;
+  width: 548px;
+}
+#stage
+{
+
+  height: 400px;
+  width: 448px;
+
+}
+canvas
+{
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
