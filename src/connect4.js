@@ -185,10 +185,11 @@ function checkLeftRight(connected, cellId)
       connected = 1;
     }
     else if ((i === 0)) {
-      connected++;
+      connected = 1;
     }
     else if ((i !== 0) && (thisRow[i].state === thisRow[i-1].state)) {
       connected++;
+      console.log(connected);
       if(connected === 4)
       {
         endGame()
@@ -237,6 +238,7 @@ function checkTlBr(connected, cellId)
     }
     else if ((i !== 0) && (thisDiag[i].state === thisDiag[i-1].state)) {
       connected++;
+      console.log(connected);
       if(connected === 4)
       {
         endGame()
